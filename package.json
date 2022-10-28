@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "usr",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.1.3",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.11",
+    "validator": "^13.6.0"
+  }
+}
